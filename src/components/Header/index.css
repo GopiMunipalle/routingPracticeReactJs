@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    padding: 15px;
+  }
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+.wave-container {
+  display: flex;
+}
+.wave-logo {
+  height: 30px;
+  width: 30px;
+}
+.wave-text {
+  color: #12022f;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+  align-self: center;
+  margin-left: 10px;
+}
+.items-container {
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+}
